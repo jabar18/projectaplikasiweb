@@ -15,7 +15,7 @@
         <li><a href="about.html">Tentang Kami</a></li>
         <li><a href="contact.html">Kontak</a></li>
         <li><a href="booking.html">pesan</a></li>
-        <li><a href="view-bookings.php">Lihat Pemesanan</a></li>
+        <li><a href="view-booking.php">Lihat Pemesanan</a></li>
       </ul>
     </nav>
   </header>
