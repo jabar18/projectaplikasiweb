@@ -1,0 +1,45 @@
+/* buat halaman login*/
+body, h1, h2, p, ul, li, form, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-container form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.login-container form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

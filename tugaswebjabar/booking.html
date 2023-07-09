@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pemesanan - Sedot WC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Layanan</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+        <li><a href="booking.html">pesan</a></li>
+        <li><a href="view-booking.php">Lihat Pemesanan</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="booking">
+    <div class="container">
+      <h2>Pemesanan Sedot WC</h2>
+      <form action="process-booking.php" method="POST">
+        <input type="text" name="name" placeholder="Nama" required>
+        <input type="text" name="address" placeholder="Alamat" required>
+        <input type="tel" name="phone" placeholder="Nomor Telepon" required>
+        <input type="date" name="date" required>
+        <textarea name="message" placeholder="Pesan" required></textarea>
+        <button type="submit">Kirim Pemesanan</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Sedot WC. jabar.</p>
+  </footer>
+</body>
+</html>
